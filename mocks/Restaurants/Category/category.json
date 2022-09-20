@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Chinese",
+    "image": "sushi.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sea Food",
+    "image": "Plateau_van_zeevruchten.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fast Food",
+    "image": "fast.webp"
+  },
+  {
+    "id": 4,
+    "name": "Pizza",
+    "image": "pizza.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Indian",
+    "image": "indian-foods.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kebab",
+    "image": "kebab.jpg"
+  }
+]

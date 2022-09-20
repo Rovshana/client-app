@@ -1,0 +1,67 @@
+
+.Profilebox form{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+.myProfileForm{
+    width: 40%;
+    margin-right: 50px;
+}
+.profileSidebar{
+    width: 325px;
+    height: 500px;
+    background: #F3F4F6;
+border-radius: 5px;
+margin-right: 17px;
+padding-top: 45px;
+
+
+
+}
+@media screen and  (min-width: 320px) and (max-width: 576px){
+   .profileSidebarMobile{
+    display: none;
+    margin-left: 20px;
+   } 
+    
+}
+
+.myDiv{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+   width: 200px;
+    align-items: center;
+    margin-left: 39px;
+}
+.myDiv:hover{
+    background-color: rgba(214, 54, 38, 0.1);
+}
+.Profileparagraph{
+    padding-top: 15px;
+    margin-left: 13px;
+    font-family: "Mutka" sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #828282;
+cursor: pointer;
+}
+.Profileparagraph:link{
+    color: #D63626 !important;
+}
+
+/* 
+formik */
+.input{
+    border: #D63626;
+    }
+.profilePhoto{
+    padding-left: 40px;
+    
+    
+}

@@ -1,0 +1,58 @@
+.login-base .form-control:focus {
+  color: #4f4f4f;
+  background: #ffe7e7;
+  border-color: transparent !important;
+}
+
+.login-base form .form-group:nth-child(4) {
+  position: relative;
+  color: red;
+}
+
+.passwordIcon {
+  position: absolute;
+  top: 55%;
+  right: 5%;
+  /* transform: translateY(-5%) */
+}
+
+.login-base .nav-item {
+  border: none;
+  background-color: transparent;
+  margin-right: 33px;
+  cursor: pointer;
+}
+.login-base .nav-item .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #828282;
+}
+
+.login-base .nav-item .nav-link.active {
+  background-color: transparent !important;
+  color: #eb5757 !important;
+}
+
+.login-base .tab-content {
+  width: 100%;
+}
+
+.login-base .nav-tabs {
+  --bs-nav-tabs-border-width: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .login-base .nav-tabs {
+    margin: 35px 0 !important;
+  }
+  .login-base .nav-item {
+    margin-right: 0;
+  }
+  .login-base .nav-item .nav-link{
+   
+  font-size: 20px;
+
+  }
+}
