@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import { ContentMenu, ParentDiv, Title, PhotoDiv, ContentDiv, Box } from "./Menu.styled";
 import Image from "next/image";
-import { menuApi } from "../../../api/menu";
+import { menuApi } from "../../../public/api/menu";
 
 function Menu(props) {
   const [state, setState] = useState(null)

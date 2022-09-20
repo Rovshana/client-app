@@ -4,7 +4,7 @@ import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { usersApi, usersPostApi } from "../../../../api/login";
+import { usersApi, usersPostApi } from "../../../../public/api/login";
 import { loginHandle } from "../../../../store/slices/LoginSlices";
 import { register } from "../../../../firebase.js";
 import { useRouter } from "next/router";
