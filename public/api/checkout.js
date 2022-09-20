@@ -1,4 +1,4 @@
-import { AxiosMockRequest, MockCreated } from "../mocks";
+import { AxiosMockRequest, MockCreated } from "../../mocks";
 import Category from "../mocks/Restaurants/Category/category.json";
 MockCreated.onPost("/checkout").reply(function (config) {
     return new Promise(function (resolve, reject) {

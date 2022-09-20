@@ -1,4 +1,4 @@
-import { AxiosMockRequest, MockCreated } from "../mocks";
+import { AxiosMockRequest, MockCreated } from "../../mocks";
 
 MockCreated.onPost("/basket").reply(function (config) {
   return new Promise(function (resolve, reject) {

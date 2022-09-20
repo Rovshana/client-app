@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { categoryApi } from "../../api/category";
-import { restaurantsApi } from "../../api/restaurants";
+import { categoryApi } from "../../public/api/category";
+import { restaurantsApi } from "../../public/api/restaurants";
 import RestaurantsContainer from "../../features/Restaurants/RestaurantContainer";
 import { setCategory, setRestaurant } from "../../store/slices/RestaurantSlice";
 

@@ -1,4 +1,4 @@
-import { AxiosMockRequest, MockCreated } from "../mocks";
+import { AxiosMockRequest, MockCreated } from "../../mocks";
 import Users from "../mocks/Login/login.json";
 MockCreated.onGet("/login").reply(200, {
   Users,
