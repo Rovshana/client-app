@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setBasket } from "../../store/slices/BasketSlices";
-import { basketPostApi } from "../../api/basket";
+import { basketPostApi } from "../../public/api/basket";
 function ProductItem({ value }) {
   const dispatch = useDispatch();
   const state = useSelector((state) => state.BasketSlices.myBasket);
