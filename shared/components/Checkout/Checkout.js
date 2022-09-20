@@ -9,7 +9,7 @@ import {
   LabelRadio,
 } from "./checkout.styled";
 import { useDispatch, useSelector } from "react-redux";
-import { checkoutApi } from "../../../api/checkout";
+import { checkoutApi } from "../../../public/api/checkout";
 import { setCheckout } from "../../../store/slices/CheckoutSlice";
 
 function Checkout(props) {

@@ -8,10 +8,10 @@ import {
   CardTitle,
   CardP,
   ParentDiv,
-} from "./Cards.styled";
+} from "./cards.styled";
 import {useEffect, useState} from 'react'
 
-import { dishesApi } from "../../../api/dishes";
+import { dishesApi } from "../../../public/api/dishes";
 import { useDispatch, useSelector } from "react-redux";
 import { setData } from "../../../store/slices/CardSlice";
 function CardsBottom(props) {

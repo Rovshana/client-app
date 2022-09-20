@@ -8,7 +8,7 @@ import {
   CardTitle,
   CardP,
   ParentDiv,
-} from "./Cards.styled";
+} from "./cards.styled";
 
 function Cards(props) {
   const {t} = useTranslation();
